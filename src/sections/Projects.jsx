@@ -6,16 +6,16 @@ import projects from "../data/projects";
 function Projects() {
     const {sections} = useApp();
     return (
-    <section className = "project-section" id = "project" ref = {sections.projectsSection}>
-        <div className= "project__content">
+    <section className = "projects" id = "project" ref = {sections.projectsSection}>
+        <div className= "projects__content">
             <p className = "sub-heading">
                 Portfolio
             </p>
-            <h2 className = "heading-primary">
+            <h2 className = "heading--primary">
                 Check my portfolio projects 👇
             </h2>
 
-            <div className = "projects">
+            <div className = "projects__container">
                 {
                     projects.map(project => <Project project = {project} key = {project.id} />)
                 }    

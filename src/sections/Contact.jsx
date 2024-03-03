@@ -4,11 +4,11 @@ function Contact() {
     const {sections} = useApp();
     return (
         <section className = "contact" id = "contact" ref = {sections.contactSection}> 
-            <div className = "contact__container">
+            <div className = "contact__content">
                 <p className = "sub-heading">
                     Contact
                 </p>
-                <h2 className = "heading-primary">
+                <h2 className = "heading--primary">
                     Don't be shy! Reach out below. 👇
                 </h2>
                 <div className = "contact__info">

@@ -1,14 +1,14 @@
-.project-section{
+.projects{
     background-color: $main-background;
     padding: 9.8rem 2rem;
 }
 
-.project__content{
+.projects__content{
     max-width: 100rem;
     margin: 0 auto;
 }
 
-.projects{
+.projects__container{
     display: flex;
     flex-direction: column;
     grid-template-columns: 1fr;
