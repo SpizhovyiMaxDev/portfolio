@@ -1,0 +1,31 @@
+
+.footer{
+    padding:9rem 2rem;
+    background-color: #2d2e32;
+    &__content{
+        max-width: 100rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: $white;
+        margin: 0 auto;
+        @media (max-width:58em) {
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            gap:2rem;
+        }
+
+        a:link,
+        a:visited{
+            text-decoration: none;
+            transition: all 0.4s;
+            color: $white;
+        }
+
+        a:hover,
+        a:active{
+            transform: scale(1.1);
+        }
+    }
+}

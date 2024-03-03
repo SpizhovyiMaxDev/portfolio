@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,600&display=swap');
+
+$white:#fff;
+$main-color:#2e72cc;
+$main-background:#f9f9f9; 
+$text-color-grey:#555;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    overflow-x: hidden;
+    font-size:80%;
+    @media(max-width:125em){
+        font-size: 62.5%;
+    }
+    @media(max-width:45em){
+        font-size: 56%;
+    }
+    @media(max-width:20em){
+       font-size: 50%;   
+    }
+}
+
+body{
+    line-height:1.8;
+    font-size: 1.8rem;
+    font-family: Poppins, sans-serif;
+    overflow-x: hidden;
+}
+
+header{
+    padding: 1rem 3.5rem;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.067);
+    background-color: $main-background;
+    z-index: 1000;
+}
+
+section{
+    padding:9.8rem 4.5rem;
+    @media (max-width:58em){
+        padding: 7.8rem 2rem;
+        text-align: center;
+    }
+}
+
+img{
+    display: inline-block;
+    width: 100%;
+    height:100%;
+}
+
+/****** TEXT SYSTEM ******/
+.heading--primary{
+    color: #2d2e32;
+    font-family: Poppins,sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+}
+
+.sub-heading{
+    color:$main-color;
+    font-size: 1.7rem;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+}
+
+.contacts{
+    display:flex;
+    gap:2rem;
+    @media (max-width:58em) {
+      justify-content: center;
+    }
+}

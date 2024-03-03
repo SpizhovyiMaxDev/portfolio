@@ -1,0 +1,113 @@
+.hero{
+  padding: 13.8rem 2rem;
+  background-color: $main-background;
+  
+    &__text{
+      max-width:50rem;
+      @media(max-width:58rem){
+        text-align:center;
+      }
+    }
+     
+    &__content{
+      max-width: 100rem;
+      margin:0 auto;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap:10rem;
+      @media (max-width:58em) {
+        flex-direction: column-reverse;
+        align-content:center;
+        max-width: 60rem;
+        gap:3rem;
+      }
+    }
+
+    &__title{
+      font-size: 5.2rem;
+      margin-bottom: 2rem;
+      line-height: 1.2;
+      color: #2d2e32;
+
+      @media (max-width:58em) {
+        font-size: 3.6rem;
+      }
+    }
+
+    &__description{
+      color: #555;
+      font-family: Mulish,sans-serif;
+      margin-bottom: 1rem;
+      font-size: 1.8rem;
+      font-weight: 500;
+      line-height: 1.6;
+    }
+
+    &__link:link,
+    &__link:visited{
+      text-decoration: none;
+      svg{
+        color: #000;
+        text-decoration: none;
+        transition: all 0.4s;
+      }
+    }    
+
+    &__link:hover,
+    &__link:active{
+      svg{
+        color: $main-color;
+      }
+    }
+}
+
+ .skills{
+   list-style:none;
+    margin-top: 1rem;
+    display: flex;
+    gap: 2rem;
+    flex-wrap:wrap;
+    @media (max-width:58em) {
+      justify-content: center;
+    }
+ }
+
+ .skills__item{
+    transition: all 0.4s;
+ }
+
+ .skills__item:hover{
+   transform: translateY(-0.3rem);
+ }
+
+ @keyframes morph {
+     0% {
+       border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+     }
+     50% {
+       border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+     }
+     100% {
+       border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+     }
+ }
+  
+.hero__img {
+  -webkit-animation: morph 8s ease-in-out infinite;
+  animation: morph 8s ease-in-out infinite;
+  background-position: 50%;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 3px solid #2d2e32;
+  border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  width: 35rem;
+  height: 35rem;
+  background-image: url('../img/portfolio/hero.webp');
+  @media (max-width:58em) {
+      width: 25rem;
+      height:25rem;
+  }
+}
+

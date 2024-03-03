@@ -1,0 +1,47 @@
+.contact{
+    padding: 9.8rem 2rem;
+    &__container{
+        max-width: 100rem;
+        margin: 0 auto;
+    }
+    &__info{
+        margin-top:5rem;
+        display:flex;
+        gap:4rem;
+        @media (max-width:58em){
+            flex-direction: column;
+        }
+
+        &-box{
+            display: flex;
+            gap:3rem;
+            @media (max-width:58em){
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    }
+
+    a:link,
+    a:visited{
+        font-size: 1.6rem;
+        text-decoration: none;
+        color: $text-color-grey;
+        transition: all 0.5s;
+    }
+
+    a:hover,
+    a:active{
+        color: $main-color;
+    }
+
+    &__icon{
+        background-color: #fff;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0,0,0,.1);
+        color: #147efb;
+        width: 5rem;
+        height: 5rem;
+        padding: 1rem;
+    }
+}
