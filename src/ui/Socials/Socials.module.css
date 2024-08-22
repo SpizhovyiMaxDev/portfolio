@@ -1,0 +1,33 @@
+.socials{
+    display: flex;
+    gap:2rem;
+    transition: transform color 0.4s;
+}
+
+.dark:link, 
+.dark:visited{
+    color: var(--color-black);
+    transition: color 0.4s;
+}
+
+.dark:hover,
+.dark:active{
+    color: var(--color-dodger-blue);
+}
+
+.light:link,
+.light:visited{
+    color: var(--color-white);
+}
+
+.light:hover,
+.light:active{
+    transform: scale(1.2);
+}
+
+
+@media (max-width:60em) {
+    .socials{
+        justify-content: center;
+    }
+}

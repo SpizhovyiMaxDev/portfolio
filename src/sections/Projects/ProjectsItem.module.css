@@ -1,0 +1,144 @@
+.project {
+    display: grid;
+    align-items: center;
+    gap: 8.6rem;
+}
+
+.regular {
+    grid-template-columns: 1fr 1.3fr;
+}
+
+.reverse {
+    grid-template-columns: 1.3fr 1fr;
+}
+
+/* ---------------------------------------------------- */
+/* ----------- Project - Image - Textes -------------- */
+/* ---------------------------------------------------- */
+
+.projectTextContainer span {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    color: var(--color-light-gray);
+    margin: 0 1rem;
+}
+
+/* ---------------------------------------------------- */
+/* ----------- Project - Image -------------- */
+/* ---------------------------------------------------- */
+
+.reverse .projectImageContainer{
+    order:1;
+}
+
+
+.projectImageContainer {
+    width: 100%;
+    padding-top: 56.25%;
+    position: relative;
+}
+
+.projectImageContainer::before{
+    z-index: 0;
+    content: "";
+    display: block;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-20deg);
+    background-color: var(--color-transparent-black);
+    user-select: none;
+    pointer-events: none;
+}
+
+.projectImage {
+    width: 85%;
+    max-height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    user-select: none;
+    border: 0.2px solid var(--color-black);
+}
+
+/* ---------------------------------------------------- */
+/* ----------- Project - Links --------------- */
+/* ---------------------------------------------------- */
+
+.projectLinks {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.projectLink:link,
+.projectLink:visited {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--color-midnight);
+    transition: color 0.4s;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.projectLink:hover,
+.projectLink:active {
+    color: var(--color-dodger-blue);
+}
+
+/* ---------------------------------------------------- */
+/* ----------- Animations --------------- */
+/* ---------------------------------------------------- */
+
+.visible .projectImageContainer {
+    opacity: 1;
+    transform: translateX(0) rotate(0deg);
+    transition: transform 0.4s ease, opacity 0.2s ease;
+}
+
+.visible .projectTextContainer {
+    opacity: 1;
+    transform: translateY(0);
+    transition: transform 0.4s ease, opacity 0.2s ease;
+}
+
+.hidden.regular .projectImageContainer {
+    opacity: 0;
+    transform: translateX(-100vw) rotate(-720deg);
+}
+
+.hidden.reverse .projectImageContainer {
+    opacity: 0;
+    transform: translateX(100vw) rotate(720deg);
+}
+
+.hidden .projectTextContainer{
+    opacity: 0;
+    transform: translateY(8rem);
+}
+
+
+/* ---------------------------------------------------- */
+/* ----------- Media - Queries --------------- */
+/* ---------------------------------------------------- */
+
+@media (max-width: 60em) {
+    .project {
+        grid-template-columns: 1fr;
+        gap: 6.4rem;
+    }
+
+    .reverse .projectImageContainer{
+        order:0;
+    }
+
+    .projectLinks{
+        justify-content: center;
+    }
+}

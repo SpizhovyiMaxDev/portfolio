@@ -1,0 +1,48 @@
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:3rem;
+}
+
+/* ---------------------------------------------------- */
+/* ----------- Contact - Icon --------------- */
+/* ---------------------------------------------------- */
+
+.contactIconCover{
+    padding: 1.5rem;
+    box-shadow: 0 0 10px var(--color-dark-transparent);
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.contactIcon{
+    color: var(--color-dodger-blue);
+}
+
+/* ---------------------------------------------------- */
+/* ----------- ContactItem - Links --------------- */
+/* ---------------------------------------------------- */
+
+.contactLink:link,
+.contactLink:visited{
+    font-size: 1.8rem;
+    color: var(--color-dim-grey);
+    text-decoration: none;
+    transition: color 0.4s;
+}
+
+.contactLink:hover,
+.contactLink:active{
+    color: var(--color-dodger-blue);
+}
+
+/* ---------------------------------------------------- */
+/* ----------- Media - Queries --------------- */
+/* ---------------------------------------------------- */
+
+@media (max-width:60em) {
+    .contact{
+        flex-direction: column;
+    }
+}

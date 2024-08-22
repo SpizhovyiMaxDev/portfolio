@@ -1,0 +1,19 @@
+.typingArrow {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--color-black);
+    animation: blink 0.4s step-start infinite;
+}
+
+.hideTypingArrow{
+    display: none;
+}
+
+@keyframes blink {
+    50% {
+        color: var(--color-gray);
+    }
+    100% {
+        color: var(--color-white);
+    }
+}

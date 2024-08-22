@@ -1,0 +1,61 @@
+
+#Hedaer
+
+Max.dev
+
+Home 
+About 
+Projects
+Contact
+
+#About 
+
+Sub-heading: About Me (make it uppercase)
+Title: Front-End Developer based  in West Kelowna
+Text: Experienced front-end developer with over 2 years of studying and practicing in building web applications. Skilled in JavaScript, HTML5, CSS3, and React.js. Committed to delivering top-notch front-end solutions and staying updated on industry trends.
+
+#Projects
+
+Sub-heading:Portfolio
+Title: Check my portfolio projects 🔎
+
+
+Forkify (Desktop App)📝
+Text: The food app simplifies recipe searches, preserves ingredients efficiently, and analyzes culinary details. With Vanilla JavaScript and Scss, it seamlessly blends dynamic features with polished design.
+Links:(Github & Demo)
+
+Weathernest (Desktop App) 🌡️
+Text: The project eases city queries, stores data efficiently, and analyzes weather. With Vanilla JavaScript and Scss, it blends dynamic features seamlessly with nice design.
+Links:(Github & Demo)
+
+Classyweather (Responsive App) 🌧️
+Text: Over this project I learned how to build a website using React, Class Based Components. I learned a lifecycle methods, how to manage state in classes...
+Links:(Github & Demo)
+
+Mapty (Desktop App) 🗺️
+Text: Experience Mapty's seamless blend of Vanilia JavaScript for a responsive and user-friendly platform, optimizing your fitness journey.
+Links:(Github & Demo)
+
+Usepopcorn (Responsive App) 🍿
+Text: usePopcorn is a platform about the movies.Search, rate, save movies seamlessly. With React and CSS, it seamlessly blends dynamic features with a nice design.
+Links:(Github & Demo)
+
+
+#Contact 
+
+1) Loaction 
+ BC, West Kelowna
+
+2) Pohne 
++1 (778) 214 9938
+
+3) Mail
+max.spizhovyi@gmail.com
+
+
+#Footer
+Thank you for attending my portfolio!
+
+# Links
+Github: https://github.com/SpizhovyiMaxDev/forkify-code/tree/view-online
+LinkedIn: https://www.linkedin.com/in/max-spizhovyi

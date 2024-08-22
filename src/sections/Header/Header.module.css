@@ -1,0 +1,87 @@
+.header {
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+    height: 8rem;
+    padding: 0 2.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-white);
+    box-shadow: 0 0 10px #0001;
+}
+
+.logotype {
+    text-decoration: none;
+    color: var(--color-light-gray);
+    font-size: 2.4rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.navigationList {
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+
+.navigationListItem {
+    color: var(--color-light-gray);
+    font-weight: 600;
+    cursor: pointer;
+    transition: color 0.4s;
+}
+
+.navigationListItem:hover {
+    color: var(--color-dodger-blue);
+}
+
+.navButton {
+    display: none;
+}
+
+@media (max-width: 60em) {
+    .navButton {
+        display: block;
+        border: none;
+        background: none;
+        z-index: 2;
+    }
+
+    .navigation {
+        z-index: 1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100dvh;
+        background: var(--color-white);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.5s ease, visibility 0.5s ease;
+    }
+
+    .navigationList {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 6rem;
+    }
+
+    .navigationListItem {
+        font-size: 3rem;
+    }
+
+    .navigation.openNav {
+        transform: translateX(0);
+        pointer-events: auto;
+        visibility: visible;
+    }
+    
+    .navigation.closeNav{
+        transform: translateX(100%);
+        visibility: hidden;
+        pointer-events: none;
+    }
+}

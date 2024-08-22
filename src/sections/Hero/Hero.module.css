@@ -1,0 +1,110 @@
+.hero {
+    min-height: 100vh;
+    padding: 14.8rem 0;
+    display: grid;
+    place-items: center;
+    background: var(--color-floral-white);
+}
+
+.heroContainer {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    align-items: center;
+    gap: 9.8rem;
+} 
+
+/* ---------------------------------------------------- */
+/* ----------- Hero - Tech - Stack -------------- */
+/* ---------------------------------------------------- */
+
+.heroTechStack {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.heroSkill {
+    transition: transform 0.4s;
+    filter: grayscale(20%);
+}
+
+.heroSkill:hover {
+    transform: translateY(-5px);
+}
+
+.heroSkill{
+    width: 40px;
+    height: 40px;
+}
+
+/* ---------------------------------------------------- */
+/* ----------- Hero - Image --------------- */
+/* ---------------------------------------------------- */
+
+.heroImageContainer {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 100%;
+    position: relative;
+}
+
+.heroImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+    border: 3px solid var(--color-midnight);
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    user-select: none;
+    animation: circle 8s ease-in-out infinite;
+    -webkit-animation: circle 8s ease-in-out infinite;
+}
+
+
+@keyframes circle {
+    0% {
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    50% {
+      border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+    100% {
+      border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
+
+/* ---------------------------------------------------- */
+/* ----------- Media - Queries --------------- */
+/* ---------------------------------------------------- */
+
+@media (max-width: 60em) {
+    .heroContainer {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+    
+    .heroImageContainer{
+        padding-top: 75%;
+        width: 75%;
+        grid-row: 1;
+    }
+
+    .heroSkill {
+        width: 30px;
+        height: 30px;
+    }
+
+    .heroTechStack {
+        justify-content: center;
+    }
+
+    .heroTechStack p {
+        display: none;
+    }
+}

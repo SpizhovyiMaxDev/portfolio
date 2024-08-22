@@ -1,0 +1,24 @@
+.contacts{
+    padding:9.8rem 0;
+}
+
+.contactsList{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    gap:6.4rem;
+    flex-wrap: wrap;
+}
+
+/* ---------------------------------------------------- */
+/* ----------- Media - Queries --------------- */
+/* ---------------------------------------------------- */
+@media (max-width:60em) {
+    .contacts{
+        text-align: center;
+    }
+
+    .contactsList{
+        flex-direction: column;
+    }
+}

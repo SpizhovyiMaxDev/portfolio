@@ -1,0 +1,184 @@
+/* --- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
+
+  Fonts for the normal text: 16 / 18 / 20 / 24 / 30 ;
+  Fonts for the long text (like a blog post):  20 / 24 / 30 / 36 / 44 
+  Fonts for the headlines:  52 / 62 / 74 / 86 / 98
+  Fonts for the large headlines: 112 / 128 / 144 / 160 / 176 / 192 / 200 
+
+- Font sizes (rem)
+1.0 / 1.2 / 1.4 / 1.6 / 1.8 / 2.0 / 2.4 / 3.0 / 3.6 / 4.4 / 5.2 / 6.2 / 7.4 / 8.6 / 9.8 
+
+- Font Sizes (vw)
+  Normal Text: 1.6vw / 1.8vw / 2vw / 2.4vw / 3vw
+  Long Text (Blog Post): 2vw / 2.4vw / 3vw / 3.6vw / 4.4vw
+  Headlines: 5.2vw / 6.2vw / 7.4vw / 8.6vw / 9.8vw
+  Large Headlines: 11.2vw / 12.8vw / 14.4vw / 16vw / 17.6vw / 19.2vw / 20vw
+
+- Font weights
+Default: 400
+Medium: 500
+Semi-bold: 600
+Bold: 700
+
+- Line heights
+Default: 1
+Small: 1.05
+Medium: 1.2
+Paragraph default: 1.6
+Large: 1.8
+
+--Main Color: #000
+
+- Default Border Radius is 11px
+
+
+Copyright by Max Spizhovyi
+*/
+
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    font-size:62.5%;
+    overflow-x: hidden;
+}
+
+:root {
+    --color-black: #000;
+    --color-dark: #151313c5; 
+    --color-dark-shade: #0000001a; 
+    --color-midnight: #2d2e32;
+    --color-dim-gray: #555;
+    --color-light-gray: #333;
+    --color-steel-blue: #2980b9;
+    --color-dodger-blue: #2e72cc;
+    --color-floral-white: #f9f9f9;
+    --color-white: #fff;
+    --color-transparent-black: #0000000d;
+    --color-dark-transparent: #0000001a; 
+}
+
+
+body{
+    font-size: 1.8rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight:400;
+    line-height: 1;
+    overflow-x:hidden;
+}
+
+/*-----------------------------------------------*/
+/* ---------- Containers ---------- */
+/*-----------------------------------------------*/
+.container{
+    max-width: 115rem;
+    padding: 0 2.6rem;
+    margin: 0 auto;
+}
+
+
+/*-----------------------------------------------*/
+/* ---------- Subheading  ---------- */
+/*-----------------------------------------------*/
+
+.sub-heading{
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: .05rem;
+    text-transform: uppercase;
+    color: var(--color-dodger-blue);
+}
+
+
+/*-----------------------------------------------*/
+/* ---------- Hedaings ---------- */
+/*-----------------------------------------------*/
+
+.heading--primary{
+    font-size:clamp(3.6rem, 4.4vw, 5.2rem);
+    font-weight: bold;
+    line-height: 1.2;
+    color: var(--color-midnight);
+}
+
+.heading--secondary{
+    font-size: clamp(3rem, 3.6vw, 4.4rem);
+    font-weight: 600;
+    line-height: 1.2;    
+    color: var(--color-midnight);
+}
+
+.heading--tertiary{
+    font-size: clamp(2.4rem, 3vw, 3.6rem);
+    font-weight: bold;
+    line-height: 1.2;
+    color: var(--color-midnight);
+}
+
+/*-----------------------------------------------*/
+/* ---------- Description  ---------- */
+/*-----------------------------------------------*/
+
+.text--primary{
+    line-height: 1.9;
+    color: var(--color-dim-gray);
+    text-align: justify;
+}
+
+/*-----------------------------------------------*/
+/* ---------- Margins  ---------- */
+/*-----------------------------------------------*/
+
+.mb-1{
+    margin-bottom: 1rem;
+}
+
+.mb-2{
+    margin-bottom: 2rem;
+}
+
+.mb-6{
+    margin-bottom: 6rem;
+}
+
+.mb-large{
+    margin-bottom: 9.6rem;
+}
+
+/*-----------------------------------------------*/
+/* ---------- Media - Queries ---------- */
+/*-----------------------------------------------*/
+@media (max-width:60em){
+    .container{
+        max-width: 45rem;
+        text-align: center;
+    }
+
+    .mb-large{
+        margin-bottom: 6.4rem;
+    }
+
+    .text--primary{
+        text-align: inherit;
+    }
+}
+
+@media (max-width:70em){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media (max-width:25em){
+    html{
+        font-size: 50%;
+    }
+}
