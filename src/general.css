@@ -162,12 +162,12 @@ body{
         text-align: center;
     }
 
-    .mb-large{
-        margin-bottom: 6.4rem;
-    }
-
     .text--primary{
         text-align: inherit;
+    }
+
+    .mb-large{
+        margin-bottom: 6.4rem;
     }
 }
 
