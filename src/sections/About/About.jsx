@@ -8,7 +8,7 @@ function About() {
     <section className={styles.about} ref={sections.sectionAbout}>
       <div className="container">
         <div className={styles.aboutContainer}>
-          <div className={`${styles.aboutImageContainer}`}>
+          <div className={styles.aboutImageContainer}>
             <img
               src="/imgs/developer/about.webp"
               alt="Max Spizhovyi, Frontend Developer"

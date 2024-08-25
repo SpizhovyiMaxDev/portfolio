@@ -1,8 +1,8 @@
 import styles from "./Header.module.css";
 
 import { useState } from "react";
-import { useApp } from "../../context/AppContext.jsx";
 import { navigation } from "../../data/navigation.js";
+import { useApp } from "../../context/AppContext.jsx";
 
 function Header() {
   const { sections } = useApp();
