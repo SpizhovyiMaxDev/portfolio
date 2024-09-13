@@ -7,7 +7,7 @@ export const projects = [
         type:'Responsive App',
         img:'/imgs/projects/jrcustomwoodwork.webp',
         description:'I created the website for J&R Custom Woodwork, a prestigious Kelowna, Canada-based company specializing in custom luxury kitchens, wardrobes, bathrooms, bars, and fireplaces. This site showcases their exceptional craftsmanship, tailored to meet the top standards of Kelowna.',
-        demo:'https://jrcustomwoodwork.netlify.app/home',
+        demo:'https://jrcustomwoodwork.ca/home',
         icon:'🛒',
         id:createId(),
     },
