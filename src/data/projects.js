@@ -12,6 +12,15 @@ export const projects = [
         id:createId(),
     },
     {
+        name:'Ruta Roots Landscaping',
+        type:'Responsive App',
+        img:'/imgs/projects/rutarootslandscaping.webp',
+        description:'I designed and developed a custom website for Ruta Roots Landscaping, a Kelowna-based company specializing in outdoor transformations. My goal was to create a clean, user-friendly site that highlights their expertise and craftsmanship. By focusing on clear navigation and a visually appealing layout, I helped them better connect with clients and showcase the quality of their work.',
+        demo:'https://www.rutarootslandscaping.com/home',
+        icon:'🏡',
+        id:createId(),
+    },
+    {
         name:'Maplify',
         type:'Responsive App',
         img:'/imgs/projects/maplify.webp',
