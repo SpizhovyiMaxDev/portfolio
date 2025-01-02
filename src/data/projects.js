@@ -3,12 +3,12 @@ import { v4 as createId } from 'uuid';
 
 export const projects = [
     {
-        name:'J&RWoodwork',
+        name:'Andor\'s Blinds',
         type:'Responsive App',
-        img:'/imgs/projects/jrcustomwoodwork.webp',
-        description:'I created the website for J&R Custom Woodwork, a prestigious Kelowna, Canada-based company specializing in custom luxury kitchens, wardrobes, bathrooms, bars, and fireplaces. This site showcases their exceptional craftsmanship, tailored to meet the top standards of Kelowna.',
-        demo:'https://jrcustomwoodwork.ca/home',
-        icon:'🛒',
+        img:'/imgs/projects/andor\'s-blinds.webp',
+        description:'I developed a custom website for a Kelowna-based blinds company, focusing on creating an intuitive, user-friendly experience. By breaking down the UI into React components, I ensured the site was easily maintainable and scalable.',
+        demo:'https://www.andorsblinds.ca/home',
+        icon:'📏',
         id:createId(),
     },
     {
@@ -18,6 +18,15 @@ export const projects = [
         description:'I designed and developed a custom website for Ruta Roots Landscaping, a Kelowna-based company specializing in outdoor transformations. My goal was to create a clean, user-friendly site that highlights their expertise and craftsmanship. By focusing on clear navigation and a visually appealing layout, I helped them better connect with clients and showcase the quality of their work.',
         demo:'https://www.rutarootslandscaping.com/home',
         icon:'🏡',
+        id:createId(),
+    },
+    {
+        name:'J&RWoodwork',
+        type:'Responsive App',
+        img:'/imgs/projects/jrcustomwoodwork.webp',
+        description:'I created the website for J&R Custom Woodwork, a prestigious Kelowna, Canada-based company specializing in custom luxury kitchens, wardrobes, bathrooms, bars, and fireplaces. This site showcases their exceptional craftsmanship, tailored to meet the top standards of Kelowna.',
+        demo:'https://jrcustomwoodwork.ca/home',
+        icon:'🛒',
         id:createId(),
     },
     {

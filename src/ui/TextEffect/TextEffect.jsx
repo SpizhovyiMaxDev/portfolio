@@ -21,13 +21,9 @@ function TextEffect({ children, className = "", typingSpeed = 25, delay = 0 }) {
         setTimeout(() => typingEffect(typingSpeed, index + 1), typingSpeed);
       }
 
-      function setDelay(func, delay) {
-        setTimeout(func, delay);
-      }
-
       if (!hasRunRef.current) {
         hasRunRef.current = true;
-        setDelay(typingEffect(typingSpeed), delay);
+        setTimeout(typingEffect(typingSpeed), delay);
       }
     },
     [delay, typingSpeed, textOrg]

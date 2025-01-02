@@ -4,7 +4,7 @@ function Socials({ type, containerStyles }) {
   return (
     <div className={`${styles.socials} ${containerStyles}`}>
       <a
-        href="https://linkedin.com/in/max-spizhovyi-310b34316"
+        href="https://www.linkedin.com/in/max-spizhovyi-627671283/"
         target="_blank"
         aria-label="linkedIn account"
         rel="noreferrer"
