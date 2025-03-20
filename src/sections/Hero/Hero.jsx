@@ -14,7 +14,7 @@ function Hero() {
       <div className="container">
         <div className={styles.heroContainer}>
           <div className={styles.heroTextContainer}>
-            <h1 className="heading--primary mb-1">Front-End React Developer</h1>
+            <h1 className="heading--primary mb-1">Software Developer</h1>
 
             <TextEffect typingSpeed={25} className="text--primary mb-2">
               Hi, I’m Max Spizhovyi, based in British Columbia, Canada. I
