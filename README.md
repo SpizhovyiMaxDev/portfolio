@@ -15,6 +15,6 @@ Built websites employing manual state object management, breaking and implementi
 Experienced in HTML and CSS developer with expertise in modern, semantic HTML5 and contemporary CSS (including flexbox and CSS Grid). Skilled in essential CSS concepts, such as the box model, positioning schemes, selector conflict resolution, and many others. Practiced a bit planning, designing, building, testing, and optimizing websites. Adapt to responsive design (Desktop First) for various devices. Familiar with web design, and skilled in using common components and layout patterns. Strong developer skills, including reading documentation, debugging, and utilizing professional tools. Additionally, I learned Scss (Sass) on freeCodeCamp and successfully applied it in various projects.
 <br>
 
-# React.js, ReactRouter, Redux, Redux Toolkit, Tailwind Css, Styled Componenrs, Module css
+## React.js, ReactRouter, Redux, Redux Toolkit, Tailwind Css, Styled Componenrs, Module css
 
 I’ve mastered state management, custom hooks, and React Router for single-page apps is second nature. Proficient in performance optimization and advanced React features, I'm now delving into Redux for broader application building. Confident in applying these skills to real-world projects, I'm continuously enhancing my frontend development expertise. Delving into React's core, I've grasped key concepts like the virtual DOM, reconciliation, diffing algorithm and many other interesting key concepts.
