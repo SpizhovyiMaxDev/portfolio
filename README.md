@@ -1,20 +1,28 @@
-# Welcome to My Portfolio
+## 🚀 Technical Skills & Experience
 
-## Summary
+### 🌐 JavaScript (ES6+)
+- Strong grasp of JavaScript fundamentals: Event Loop, Promises, async/await, callbacks, closures, bubbling, event delegation
+- Experienced in modular design and state management with vanilla JS
+- Proficient in making AJAX requests and understanding data flow within web applications
+- Applied Object-Oriented Programming (OOP) principles to build scalable, maintainable applications
+- Solid understanding of DOM manipulation and browser behavior
 
-Experienced front-end developer with over 2 years of practical expertise in building web applications. Have expirience in developing applications for users (work on freelance). Skilled in JavaScript, HTML5, CSS3, and React.js. Committed to delivering top-notch front-end solutions and staying updated on industry trends.
-<br>
+### 🎨 HTML5, CSS3, SCSS
+- Semantic and accessible HTML5 development
+- Deep knowledge of CSS concepts: Box Model, Flexbox, CSS Grid, selectors, positioning, specificity
+- Expertise in Responsive Design (Mobile-First and Desktop-First approaches)
+- Experience with SCSS (Sass) for writing clean, maintainable stylesheets
+- Confident in debugging layouts and optimizing for cross-browser compatibility
+- Familiar with common UI/UX patterns and design systems
 
-## Expirience in JavaScript
+### ⚛️ React.js Ecosystem
+- Built reusable React components and single-page applications (SPA)
+- Proficient with React Router, Custom Hooks, and Context API
+- Experience with Redux and Redux Toolkit for complex state management
+- Solid understanding of React performance optimization, virtual DOM, reconciliation, and diffing algorithm
+- Applied knowledge in SEO optimization, Google Analytics integration, and enhancing user engagement
 
-Built websites employing manual state object management, breaking and implementing big applications by using JavaScript modules, have a good understanding of how the module works. Experienced in requesting and posting some data to the online web servers (AJAX calls), have an understanding how data travels behind the scenes. Over studying and implementing different projects, I have experienced lots of features of JavaScript, such as an Event Loop, Promises, Callback Hell, Bubbling, Event Delegation, and so many others. Possess a strong grasp of JavaScript Object-Oriented Programming (OOP), which made it easier to learn React class based components.
-<br>
-
-## Experience in HTML5, CSS3 and Scss
-
-Experienced in HTML and CSS developer with expertise in modern, semantic HTML5 and contemporary CSS (including flexbox and CSS Grid). Skilled in essential CSS concepts, such as the box model, positioning schemes, selector conflict resolution, and many others. Practiced a bit planning, designing, building, testing, and optimizing websites. Adapt to responsive design (Desktop First) for various devices. Familiar with web design, and skilled in using common components and layout patterns. Strong developer skills, including reading documentation, debugging, and utilizing professional tools. Additionally, I learned Scss (Sass) on freeCodeCamp and successfully applied it in various projects.
-<br>
-
-## React.js, ReactRouter, Redux, Redux Toolkit, Tailwind Css, Styled Componenrs, Module css
-
-I’ve mastered state management, custom hooks, and React Router for single-page apps is second nature. Proficient in performance optimization and advanced React features, I'm now delving into Redux for broader application building. Confident in applying these skills to real-world projects, I'm continuously enhancing my frontend development expertise. Delving into React's core, I've grasped key concepts like the virtual DOM, reconciliation, diffing algorithm and many other interesting key concepts.
+### 💎 Styling Libraries & Tools
+- Styled with Tailwind CSS, Styled-Components, and CSS Modules
+- Translated Figma designs into pixel-perfect, responsive web apps
+- Hands-on experience with Git version control, Bash, and RESTful APIs
