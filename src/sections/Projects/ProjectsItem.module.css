@@ -31,10 +31,10 @@
     order:1;
 }
 
-
 .projectImageContainer {
-    width: 100%;
-    padding-top: 56.25%;
+    display: grid;
+    place-items: center;
+    aspect-ratio: 4/2;
     position: relative;
 }
 
@@ -51,19 +51,13 @@
     background-color: var(--color-transparent-black);
     user-select: none;
     pointer-events: none;
+    z-index: -1;
 }
 
 .projectImage {
-    width: 85%;
-    max-height: 100%;
-    object-fit: cover;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-    user-select: none;
-    border: 0.2px solid var(--color-black);
+     width: 85%;
+     object-fit: cover;
+     border: 0.2px solid var(--color-black);
 }
 
 /* ---------------------------------------------------- */
