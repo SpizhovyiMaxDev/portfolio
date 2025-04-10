@@ -11,7 +11,7 @@ function About() {
           <div className={styles.aboutImageContainer}>
             <img
               src="/imgs/developer/about.webp"
-              alt="Max Spizhovyi, Frontend Developer"
+              alt="Maksym Spizhovyi, Frontend Developer"
               className={styles.aboutImage}
             />
           </div>
