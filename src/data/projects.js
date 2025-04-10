@@ -30,6 +30,16 @@ export const projects = [
         id:createId(),
     },
     {
+        name:'La-Minor',
+        type:'Responsive App',
+        img:'/imgs/projects/la-minor.webp',
+        description:'Built a performant app using Redux Toolkit, Tailwind CSS, and createBrowserRouter. Applied the “render-as-you-fetch” pattern for optimized data handling and smooth user experience. Solidified expertise in state management, modern routing, and responsive UI design.',
+        github:'https://github.com/SpizhovyiMaxDev/la-minior',
+        demo:'https://la-minor.netlify.app/',
+        icon:'🍕',
+        id:createId(),
+    },
+    {
         name:'Maplify',
         type:'Responsive App',
         img:'/imgs/projects/maplify.webp',
