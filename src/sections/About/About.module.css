@@ -34,9 +34,7 @@
 
 @media (max-width:60em){
     .aboutImageContainer{
-        width: 75%;
         margin: 0 auto;
-        padding-top: 75%;
     }
 
     .aboutContainer{
